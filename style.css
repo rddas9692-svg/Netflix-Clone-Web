@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 725px;
+  padding: 20px;
+  background-color: transparent;
+}
+.nav-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-logo {
+  width: 150px;
+  height: 40px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.nav-lang {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 125px;
+  font-weight: bold;
+}
+.lang-select {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  width: 125px;
+  font-size: 14px;
+  font-weight: 550;
+  padding: 0px 18px;
+  background-color: #000;
+  color: #fff;
+  border: 0.5 px solid #fff;
+  border-radius: 4px;
+}
+.nav-signin {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 32px;
+  width: 77px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section {
+  background-image: url("netflix.png");
+  background-size: cover;
+  height: 645px;
+}
+.hero-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding-top: 160px;
+  font-size: 16px;
+}
+.hd1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+.hd2 {
+  font-size: 22px;
+}
+.hero-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 375px;
+  max-width: 100%;
+  height: 52px;
+  padding: 16px 18px;
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.button1 {
+  height: 56px;
+  width: 214px;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.button1:hover {
+  background-color: #f6121d;
+}
+.mov-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+.box {
+  width: 200px;
+  height: 300px;
+  background-color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.box-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.hi2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.mid-fis {
+  font-weight: bold;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.mid-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.footer1 {
+  display: flex;
+  /* justify-content: center;
+    text-align:center; */
+  font-size: 16px;
+  margin-top: 90px;
+  margin-left: 210px;
+  color: #ccc;
+}
+.footer2 {
+  background-color: #000;
+  color: #ccc;
+  height: 220px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  margin-top: 20px;
+}
+ul a {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #ccc;
+  text-decoration: underline;
+}
+.footer-lang {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 6px;
+  margin-top: 20px;
+  margin-left: 210px;
+}
+
+.footer3 {
+  background-color: #000;
+  color: #ccc;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.footer3 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reasons {
+  padding: 0 140px;
+}
+.reason-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.reason-box {
+  height: 280px;
+  padding: 24px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #192247, #210e17);
+  color: white;
+}
+.quest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 140px;
+  gap: 10px;
+}
+.button2 {
+  display: flex;
+  justify-content: space-between;
+  height: 84px;
+  width: 1230px;
+  padding: 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+.button2 i {
+  text-align: right;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.f-h {
+  margin-left: 210px;
+  margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 20px 16px;
+    }
+
+    .nav-logo {
+        width: 90px;
+        height: 25px;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 140px 0 60px;
+    }
+
+    .hd1 {
+        font-size: 32px;
+    }
+
+    .hd2 {
+        font-size: 18px;
+    }
+
+    .hero-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        height: 48px;
+    }
+
+    .button1 {
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .hi2 {
+        font-size: 22px;
+        margin: 30px 16px 15px;
+    }
+
+    .mov-sec {
+        padding: 0 16px 30px;
+        gap: 12px;
+    }
+
+    .box {
+        flex: 0 0 140px;
+        height: 210px;
+    }
+
+    .reasons {
+        padding: 0 16px;
+    }
+
+    .reason-container {
+        grid-template-columns: 1fr; /* Turns columns from horizontal to vertical stack */
+        gap: 12px;
+    }
+
+    .quest {
+        padding: 0 16px;
+    }
+
+    .button2 {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    .footer-wrap {
+        padding: 40px 16px;
+    }
+
+    .footer2 {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile screen instead of 4 */
+    }
+}
